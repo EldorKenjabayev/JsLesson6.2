@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.conteiner .content{
+    width: 60%;
+    padding-top: 10%;
+    background-color: darkcyan;
+    padding: 4%;
+    border-radius: 25px;
+}
+
+.conteiner .content button{
+    padding: 15px 70px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.conteiner .content p{
+    font-size: 20px;
+}
